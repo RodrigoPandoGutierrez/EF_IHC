@@ -1,0 +1,316 @@
+
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--=============== BOXICONS ===============-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--=============== CSS ===============-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>FitGroup</title>
+
+        <!-- FAVICON -->
+        <link rel="shortcut icon" type="image/x-icon" href="assets/img/favicon/favicon.ico"/>
+
+    </head>
+    <body>
+        <!--=============== HEADER ===============-->
+        <header class="header" id="header">
+            <nav class="nav container">
+                <a href="" style="color:#4e2b23">Running Artist</a>
+
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link active-link">Inicio</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#about" class="nav__link">Nosotros</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#services" class="nav__link">Servicios</a>
+                        </li>
+                        <li class="nav__item">
+                            <a href="#contact" class="nav__link">Contáctanos</a>
+                        </li>
+
+                        <i class='bx bx-toggle-left change-theme' id="theme-button"></i>
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+
+
+                <i class='bx bx-search'></i>
+
+                <a href="#" class="button button__header"id="myBtn2">Iniciar sesión</a>
+                
+            </nav>
+        </header>
+
+        <main class="main">
+             <!--=============== HOME ===============-->
+             <section class="home section" id="home">
+                <div class="home__container container grid">
+
+                    <img src="assets/img/correr.png" class="svg__img svg__color home__img">
+
+                    <div class="home__data">
+                        <h1 class="home__title">"El mundo es tu lienzo, y tu eres el lapiz"</h1>
+                        <a href="https://beatclub-45762.web.app/" class="button" id="myBtn">Registrarme</a>
+
+                    </div>   
+                </div>
+            </section>
+           
+            
+            <!--=============== ABOUT ===============-->
+            <section class="about section container" id="about">
+                <div class="about__container grid">
+                    <div class="about__data">
+                        <h2 class="section__title-center">Sobre Nosotros</h2>
+                        <p class="about__description">Somos una app donde podrás utilizar el GPS del smartphone para seguir la pista de tu recorrido e ir formando figuras
+                        </p>
+                    </div>
+                    <img class="svg__img svg__color about__img" src="./assets/img/gps.png">
+                
+                    
+                </div>
+            </section>
+
+           
+
+            <!--=============== SERVICES ===============-->
+            <section class="services section container" id="services">
+                <h2 class="section__title">Servicios</h2>
+                <p>Está embarcado en la misión de inspirar y motivar a las personas
+                    a ser saludables en base a la actividad de salir a correr, pero también el ser creativos utilizando la
+                    ciudad como un gran lienzo sobre el cual su recorrido es capaz de generar figuras..</p>
+                <h2 class="section__title">Nuestros app está disponible en:</h2>
+                <div class="services__container grid">
+                    <div class="services__data uno">
+                        <h3 class="services__subtitle">Play Store</h3>
+
+                        <img src="assets/img/google-play.png" class="svg__color services__img">
+
+                        <p class="services__description">Descarga la app para todos los dispositivos Android</p>
+                        <div>
+                            <a href="#" class="button button-link">Obtener</a>
+                        </div>
+                    </div>
+
+                    <div class="services__data">
+                        <h3 class="services__subtitle">App Store</h3>
+                       
+                        <img src="assets/img/app-store.png" class="svg__color services__img">
+
+                        <p class="services__description">Descarga la app para todos los dispositivos iOS</p>
+                        <div>
+                            <a href="#" class="button button-link">Obtener</a>
+                        </div>
+                    </div>
+
+                    <div class="services__data">
+                        <h3 class="services__subtitle">Úsalo en todos lados</h3>
+                      
+                        <img src="assets/img/map.png" class="svg__color services__img">
+
+                        <p class="services__description">Descargala en todos lados con todos tus amigos.</p>
+                        <div>
+                            <a href="#" class="button button-link">Aprender más</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- PRICES -->
+            <section class="prices section container">
+                <h2 class="section__title">Planes</h2>
+
+                <div class="card__container grid">
+                    <!--==================== CARD 1 ====================-->
+                    <article class="card__content grid">
+                        <div class="card__pricing">
+                            <div class="card__pricing-number">
+                                <span class="card__pricing-symbol">$</span>0
+                            </div>
+                            <span class="card__pricing-month">mes</span>
+                        </div>
+        
+                        <header class="card__header">
+                            <div class="card__header-circle grid">
+                                <img src="assets/img/free-coin.png" class="card__header-img">
+                            </div>
+                            
+                            <h1 class="card__header-title">Gratis</h1>
+                        </header>
+                        
+                        <ul class="card__list grid">
+                            <li class="card__list-item">
+                                <i class="uil uil-check card__list-icon"></i>
+                                <p class="card__list-description">El plan Free permite, al finalizar su recorrido, optar por utilizar la opción “Share” para compartir
+                                    una imagen del mapa con la figura formada en las cuentas de redes sociales que tenga asociadas
+                                    (en este momento soporta Facebook, Twitter, WhatsApp e Instagram). Una vez que finaliza la
+                                    sesión de running, la información de recorrido queda registrada por 24 horas, luego de lo cual se
+                                    elimina, quedando solo los valores de distancia recorrida y tiempo de sesión.</p>
+                            </li>
+                        </ul>
+        
+                        <button class="card__button">Elegir este plan</button>
+                    </article>
+        
+                    <!--==================== CARD 2 ====================-->
+                    <article class="card__content grid">
+                        <div class="card__pricing">
+                            <div class="card__pricing-number">
+                                <span class="card__pricing-symbol">$</span>4.99
+                            </div>
+                            <span class="card__pricing-month">mes</span>
+                        </div>
+        
+                        <header class="card__header">
+                            <div class="card__header-circle grid">
+                                <img src="assets/img/pro-coin.png" class="card__header-img">
+                            </div>
+        
+                            <span class="card__header-subtitle">Paga $4.19 por el plan Anual</span>
+                            <h1 class="card__header-title">Plus</h1>
+                        </header>
+                        
+                        <ul class="card__list grid">
+                            <li class="card__list-item">
+                                <i class="uil uil-check card__list-icon"></i>
+                                <p class="card__list-description">permite además de lo ofrecido por el plan Free, mantener los mapas de recorrido de
+                                    sesiones. También incluye la opción “Save Draft”, para guardar una sesión de recorrido y
+                                    continuarla luego, así como registrar los datos de recorrido automáticamente en cuentas afiliadas
+                                    del usuario para las aplicaciones Apple Health, Google Fit, Strava o Nike+.</p>
+                            </li>
+                        </ul>
+        
+                        <button class="card__button">Elegir este plan</button>
+                    </article>
+        
+                    <!--==================== CARD 3 ====================-->
+                    <article class="card__content grid">
+                        <div class="card__pricing">
+                            <div class="card__pricing-number">
+                                <span class="card__pricing-symbol">$</span>20
+                            </div>
+                            <span class="card__pricing-month">mes</span>
+                        </div>
+        
+                        <header class="card__header">
+                            <div class="card__header-circle grid">
+                                <img src="assets/img/enterprise-coin.png" class="card__header-img">
+                            </div>
+        
+                            <span class="card__header-subtitle">Para negocios vinculados a la vida saludable | Paga $41.99 por el plan anual</span>
+                            <h1 class="card__header-title">Negocios</h1>
+                        </header>
+                        
+                        <ul class="card__list grid">
+                            <li class="card__list-item">
+                                <i class="uil uil-check card__list-icon"></i>
+                                <p class="card__list-description">A través de esta aplicación, los
+                                    negocios pueden incrementar sus ventas ofreciendo promociones de consumo dirigidas a los
+                                    Runners, basadas en Kinetic Points, las cuales son visibles para los usuarios runners en la opción
+                                    Offers de su aplicación. Los negocios también pueden plantear retos de figuras que los runners
+                                    Página 3 de 8
+                                    deben formar con su recorrido, de forma individual o vía la opción “Team Running Session” en
+                                    la que varios usuarios colaboran en la formación de una figura (dicha opción solo está disponible
+                                    para los usuarios runners del plan Plus).</p>
+                            </li>
+                            
+                        </ul>
+        
+                        <button class="card__button">Elegir este plan</button>
+                    </article>
+                </div>
+            </section>
+
+            <!--=============== CONTACT US ===============-->
+            <section class="contact section container" id="contact">
+                <div class="contact__container grid">
+                    <div class="contact__content">
+                        <h2 class="section__title-center">Contáctanos</h2>
+                        <p class="contact__description">Puede contactarnos desde aquí, puede enviarnos un E-Mail, llamarnos o visitar nuestro centro de servicio.</p>
+                    </div>
+
+                    <ul class="contact__content grid">
+                        <li class="contact__address">Teléfono: <span class="contact__information">+51993222666</span></li>
+                        <li class="contact__address">Email:  <span class="contact__information">soporte@beatclub.com</span></li>
+                        <li class="contact__address">Locación: <span class="contact__information">Lima - Peru</span></li>
+                    </ul>
+
+                    <div class="contact__content boton">
+                        <a href="#" class="button">Contácto</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!--=============== FOOTER ===============-->
+        <footer class="footer section">
+            <div class="footer__container container grid">
+                <div class="footer__content">
+                    <a href="#" class="footer__logo">Deporte</a>
+                    <p class="footer__description">El mundo es tu lienzo</p>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Servicios</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Corre</a></li>
+                        <li><a href="#" class="footer__link">Dibuja</a></li>
+                        <li><a href="#" class="footer__link">Negocios</a></li>
+
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Nuestra Compañía</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Blog</a></li>
+                        <li><a href="#" class="footer__link">Misión</a></li>
+                        <li><a href="#" class="footer__link">Contácto</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__content">
+                    <h3 class="footer__title">Comunidad</h3>
+                    <ul class="footer__links">
+                        <li><a href="#" class="footer__link">Soporte</a></li>
+                        <li><a href="#" class="footer__link">Q&A</a></li>
+                        <li><a href="#" class="footer__link">Atención al cliente</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer__social">
+                    <a href="#" class="footer__social-link"><i class='bx bxl-facebook-circle '></i></a>
+                    <a href="#" class="footer__social-link"><i class='bx bxl-twitter'></i></a>
+                    <a href="#" class="footer__social-link"><i class='bx bxl-instagram-alt'></i></a>
+                </div>
+            </div>
+
+            <p class="footer__copy">&#169; Running Artist. Todos los derechos reservados</p>
+        </footer>
+
+        <!--=============== SCROLL UP ===============-->
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-up-arrow-alt scrollup__icon'></i>
+        </a>
+
+                <!--========== SCROLL REVEAL ==========-->
+                <script src="https://unpkg.com/scrollreveal"></script>
+
+        <!--=============== MAIN JS ===============-->
+        
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
